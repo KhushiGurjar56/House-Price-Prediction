@@ -1,30 +1,29 @@
-# ML Retail Analysis
+# House Price Prediction using Linear Regression
 
 ## Project Overview
-This project focuses on analyzing retail data and practicing machine learning techniques using Python.
+This project predicts house prices based on house size using a Linear Regression model.
+
+## Dataset
+The dataset contains house sizes in square feet and their corresponding prices in lakhs.
 
 ## Tools and Libraries
 - Python
 - Pandas
 - Scikit-learn
-- Excel
 - Google Colab
 
 ## Work Performed
-- Data inspection and cleaning
-- Handling missing values and duplicate records
-- Label Encoding and One-Hot Encoding
-- Train-test splitting
-- Linear Regression
-- Polynomial Regression
-- Logistic Regression
-- KNN Classification
-- Model evaluation using MAE, MSE, and RMSE
+- Created a dataset using Pandas
+- Separated independent variable (X) and dependent variable (y)
+- Split the dataset into training and testing sets
+- Created and trained a Linear Regression model
+- Predicted house prices for test data
+- Evaluated model performance using `model.score()`
+- Predicted the price for a house of 1800 sq. ft.
+- Displayed actual and predicted prices
 
-## Dataset
-The project uses retail transaction data containing customer, product, and purchase information.
-
-## Notebook
+## Learning Outcome
+Practised the fundamentals of Linear Regression, model training, prediction, and evaluation.
 Open `Untitled3.ipynb` in this repository to view the code.
 
 ## Project Status
